@@ -1,0 +1,188 @@
+a:hover {
+    font-size:20px;
+	background-color:saddlebrown;
+	color:antiquewhite;
+}
+a:link {
+    
+    text-decoration: none;
+	border:1px;
+	border-bottom-color:white;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 2rem;
+ font-weight: bold;
+}
+.navbar ul li a{
+ text-decoration:none ;
+ text-align: center;
+ padding: 20px;
+ color:white;
+}
+.navbar ul li  a:hover {
+ background-color:white;
+ color:black;
+ box-shadow: 0 0 10px white;
+}
+.img{
+    position: sticky;
+    
+
+}
+#about{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    height: 700px;
+
+}
+#pic{
+    display: flex;
+}
+#pic img{
+width:500px;
+height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin: bottom 20px;
+    color: white;
+}
+body{
+    color: black;
+    background-color: black;
+}
+p{
+    color: cornsilk;
+
+}
+h2{
+    color: cornsilk;
+}
+#Gallary{
+    display: flex;
+    flex-direction: column;     
+    height: 700px;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallary img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content:center ;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    background: url('uu.jpg') no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: black;
+    background:black;
+    box-sizing: border-box;
+    height: 700px;
+    
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width:500px;
+    height: 300px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    margin: 20px 0px;
+    height: 700px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width:60%;
+    border: none;
+    outline: none;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    box-sizing: border-box;
+}
+#send{
+    padding: 10px;
+    width: 20px;
+    border: none;
+}
+html{
+    scroll-behavior: smooth;
+}
